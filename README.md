@@ -6,7 +6,7 @@
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-2DC653?style=for-the-badge)](https://abeerullahdanish.github.io/portfolio-Website)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Abeer_Danish-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/abeer-danish/)
-[![GitHub](https://img.shields.io/badge/GitHub-AbeerZaidiX-181717?style=for-the-badge&logo=github)](https://github.com/AbeerZaidiX)
+[![GitHub](https://img.shields.io/badge/GitHub-abeerullahdanish-181717?style=for-the-badge&logo=github)](https://github.com/abeerullahdanish/)
 
 </div>
 
