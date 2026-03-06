@@ -986,3 +986,89 @@ body {
     /* dot top-left small */
     -30px -20px 0 4px rgba(255,107,53,0.3) !important;
 }
+/* =====================================================
+   CONTACT FORM — FormSubmit Styled
+   ===================================================== */
+
+.contact__form {
+  background: var(--bg-card);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 4rem;
+  box-shadow: var(--shadow-md);
+  margin-top: 4rem;
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form__group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form__input {
+  width: 100%;
+  padding: 1.4rem 1.8rem;
+  font-family: var(--ff-body);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  color: var(--charcoal);
+  background: var(--white);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-md);
+  outline: none;
+  transition: var(--transition);
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.form__input::placeholder {
+  color: var(--gray-light);
+  font-weight: var(--fw-regular);
+}
+
+.form__input:focus {
+  border-color: var(--green);
+  box-shadow: 0 0 0 4px rgba(45,198,83,0.1);
+}
+
+.form__textarea {
+  resize: vertical;
+  min-height: 15rem;
+  margin-bottom: 1.5rem;
+}
+
+.form__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 3.5rem;
+  font-family: var(--ff-body);
+  font-size: var(--fs-md);
+  font-weight: var(--fw-bold);
+  color: var(--white);
+  background: var(--green);
+  border: none;
+  border-radius: var(--radius-xl);
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: var(--shadow-green);
+  width: 100%;
+  justify-content: center;
+}
+
+.form__btn:hover {
+  background: var(--green-dark);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(45,198,83,0.35);
+}
+
+.form__btn i { font-size: 1.8rem; }
+
+@media screen and (max-width: 560px) {
+  .form__group { grid-template-columns: 1fr; }
+  .contact__form { padding: 2.5rem 2rem; }
+}
