@@ -2,7 +2,7 @@
 
 # Abeer Ullah Danish — Data Scientist Portfolio
 
-![Portfolio Preview](assets/img/profile-pic1.png)
+<img src="assets/img/profile-pic1.png" alt="Portfolio Preview" width="300"/>
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-2DC653?style=for-the-badge)](https://abeer-danish.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Abeer_Danish-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/abeer-danish/)
